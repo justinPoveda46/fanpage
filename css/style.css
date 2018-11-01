@@ -1,5 +1,9 @@
 html {
     height: 100%;
+     background-image: url("https://www.jffabiano.com/wp-content/uploads/2017/05/music-gif.gif"); 
+    
+     background-size: 100%;
+    
 }
 
 body {
@@ -17,3 +21,89 @@ a {
     width: 30px;
     margin: 15px;
 }
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    border: blue 3px solid;
+    background: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header{
+    display:flex;
+    justify-content: center;
+    border: black 5px solid;
+    margin: 2%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: blue;
+}
+#nombre{
+    font-size: 40px;
+    color: yellow;
+}
+.thumbnail-image{
+    margin: 30px;
+    border: solid #8e7932;
+    width: 250px;
+    height: 250px;
+
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: #8e7932;
+    background-image: url("https://static.makeuseof.com/wp-content/uploads/2016/06/fountain_of_color.gif");
+}
+.footer{
+    display:flex;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+#one{
+    font-size: 40px;
+    color: yellow;
+}
+#two{
+    font-size: 40px;
+    color: yellow;
+}
+.image{
+    height: 75%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.leftPane{
+    color:white;
+    border:5px solid yellow;
+    height:98%;
+    width: 50%;
+    font-size: 19px;
+    padding-right: 25px;
+    background-color: #333333;
+    opacity: 0.75;
+    padding: 8px;
+    
+}
+.aboutMain{
+    display:flex;
+    justify-content: space-between;
+    height: 89%;
+}
+.rightPane{
+    width: 50%;
+
+}
+#pic{
+    width: 100%;
+
+}
+    
